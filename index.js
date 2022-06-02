@@ -65,6 +65,6 @@ else{
   //Terminate the program when user guess wrong and print out total point accumulated
   console.log(`Oops❕ Incorrect guess, Random Num Generated is ${compNum}`);
   console.log(`❌❌ GAME OVER ❌❌`);
-  console.log(`${playerName}'s Total Points ↔️ ${totalPoints}`);
+  console.log(`${playerName}'s Total Point(s) ↔️ ${totalPoints}`);
 }
 //end program guessGame
