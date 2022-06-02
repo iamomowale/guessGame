@@ -45,7 +45,8 @@ else{
       totalPoints++;
       console.log(`✅ Correct! Level 🆙⬆️ to Stage ${range} with ${totalPoints} points`);
       range++;  
-    }
+    }else
+      console.log("");
   
     //Using loop to move to next stage and increment player'point everytime a player guess right
   while(guess == 'correct'){
@@ -62,8 +63,8 @@ else{
   }
 
   //Terminate the program when user guess wrong and print out total point accumulated
-  console.log(`Oops❕ Incorrect guess, Random Num Generated ${compNum}`);
+  console.log(`Oops❕ Incorrect guess, Random Num Generated is ${compNum}`);
   console.log(`❌❌ GAME OVER ❌❌`);
-  console.log(`Total Points ↔️ ${totalPoints}`);
+  console.log(`${playerName}'s Total Points ↔️ ${totalPoints}`);
 }
 //end program guessGame
