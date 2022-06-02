@@ -46,6 +46,7 @@ else{
       console.log(`✅ Correct! Level 🆙⬆️ to Stage ${range} with ${totalPoints} points`);
       range++;  
     }
+  
     //Using loop to move to next stage and increment player'point everytime a player guess right
   while(guess == 'correct'){
     console.log("");
@@ -65,3 +66,4 @@ else{
   console.log(`❌❌ GAME OVER ❌❌`);
   console.log(`Total Points ↔️ ${totalPoints}`);
 }
+//end program guessGame
